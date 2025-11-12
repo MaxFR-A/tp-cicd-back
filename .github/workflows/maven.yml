@@ -9,7 +9,7 @@
 name: Java CI with Maven
 
 env:
-  imagename: '${{ vars.USERNAME }}/{${{ vars.IMAGE }}:${{github.ref_name}}'
+  imagename: '${{ vars.USERNAME }}/${{ vars.IMAGE }}:${{github.ref_name}}'
 
 on:
   push:
